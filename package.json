@@ -1,0 +1,22 @@
+{
+  "name": "echo-http",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"looking fine :P\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caerulea-rosa/echo-http.git"
+  },
+  "keywords": [
+    "echo", "http"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caerulea-rosa/echo-http/issues"
+  },
+  "homepage": "https://github.com/caerulea-rosa/echo-http#readme"
+}
