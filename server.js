@@ -1,7 +1,7 @@
 /*jshint node:true*/
 'use strict';
 
-const version = 1.1;
+const version = '1.1.0';
 const port = 8080;
 
 const http = require('http');
