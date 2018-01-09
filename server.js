@@ -1,8 +1,10 @@
 /*jshint node:true*/
 'use strict';
 
-const http = require('http');
+const version = 1.0;
 const port = 8080;
+
+const http = require('http');
 
 http
     .createServer((request, response) => {
@@ -24,6 +26,8 @@ http
                     }
                 });
             }
+        } else if (request.url.match(/\/version/)) {
+            response.end(version);
         } else {
             response.end(request.body);
         }
